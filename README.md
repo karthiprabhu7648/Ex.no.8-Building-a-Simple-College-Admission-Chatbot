@@ -5,7 +5,7 @@
 A chatbot is a software application that simulates a conversation with a human user, typically through text. A rule-based (or pattern-matching) chatbot works by comparing the user's message against a predefined set of keywords or patterns and returning a suitable pre-written response. It does not require large training datasets or heavy computation, which makes it an easy and beginner-friendly starting point for understanding how conversational AI systems are built. In this experiment, a College Admission Chatbot is developed to act as a virtual help-desk assistant that instantly answers common queries asked by prospective students.
 ### Procedure
 ### Step 1: Import Required Libraries
-●	re – Python's regular expression module, used to search for keyword patterns inside the user's message.
+●	re – Python's regular expression module, used to search for keyword patterns inside the user's message
 ●	random – used to randomly pick one response when more than one reply is available for the same intent, so the chatbot does not sound repetitive.
 <img width="605" height="37" alt="image" src="https://github.com/user-attachments/assets/5d19fe62-e644-4676-805b-2fe23826e1da" />
 ### Step 2: Design the Knowledge Base (Intents and Responses)
